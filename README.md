@@ -18,7 +18,7 @@ Before running the script, ensure you have the following files in the same direc
     ```
     Replace `YOUR_API_BASE_URL`, `YOUR_USERNAME`, and `YOUR_PASSWORD` with your actual API details.
 
-2.  **`entries.txt`**: This text file contains the raw incident entries that need to be processed. You can get the data from document file given  by `Mas Eko` desktop engineer, copy all text into `entries.txt`
+2.  **`entries.txt`**: This text file contains the raw incident entries that need to be processed. You can get the data from document file given  by desktop engineer, copy all text into `entries.txt`
 
 ## Setup and Execution Steps
 
