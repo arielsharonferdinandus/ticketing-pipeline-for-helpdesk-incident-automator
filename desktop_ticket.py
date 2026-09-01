@@ -12,7 +12,7 @@ class IncidentParser:
     def __init__(self, entries_file="entries.txt", parsed_output_file="parsed_output.json"):
         self.entries_file = entries_file
         self.parsed_output_file = parsed_output_file
-        self.leftover_chunks_file = leftover_chunks_file
+        # self.leftover_chunks_file = leftover_chunks_file # feature still on development so there is no need to generate leftover_chunks.json
         self.cpu_prefix_pattern = re.compile(r"^(I[3579]|ULT[3579]|U[3579]|R[3579]|AI_?R[3579])")
         self.entry_start_pattern = re.compile(r"^\d+\.\s*\d+")
 
